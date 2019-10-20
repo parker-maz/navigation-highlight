@@ -14,7 +14,6 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: 1em 0;
   width: 100%;
   margin: 0;
 }
@@ -23,12 +22,12 @@ h1 {
   margin: 0;
   font-size: 3rem;
   text-align: center;
-  font-family: Sigmar One, sans-serif;
+  font-family: 'Sigmar One', sans-serif;
   color: #b20953;
 }
 
 h2 {
-  font-family: Sigmar One, sans-serif;
+  font-family: 'Sigmar One', sans-serif;
   font-size: 2rem;
   color: #b20953;
 }
