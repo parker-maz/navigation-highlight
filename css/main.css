@@ -27,6 +27,12 @@ h1 {
   color: #b20953;
 }
 
+h2 {
+  font-family: Sigmar One, sans-serif;
+  font-size: 1.875rem;
+  color: #b20953;
+}
+
 .nav {
   text-align: center;
   padding: 0;
