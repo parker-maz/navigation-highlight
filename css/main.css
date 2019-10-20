@@ -1,15 +1,48 @@
 html {
   font-family: Georgia;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 header {
-  display: inline-block;
-  text-align: center;
+  background-color: #ffe500;
+  padding: 1em;
   width: 100%;
   margin: 0;
 }
 
 h1 {
-  display: inline-block;
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
   font-family: Sigmar One, sans-serif;
+  color: #b20953;
+}
+
+.nav {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  padding: .75em;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #b2a212;
+  text-decoration: none;
 }
