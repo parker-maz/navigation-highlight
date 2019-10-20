@@ -1,0 +1,15 @@
+html {
+  font-family: Georgia;
+}
+
+header {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  display: inline-block;
+  font-family: Sigmar One, sans-serif;
+}
