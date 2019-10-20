@@ -54,6 +54,10 @@ h2 {
   text-decoration: none;
 }
 
+.nav .current {
+  background-color: #b20953;
+}
+
 .nav a:hover {
   background-color: #cc1465;
 }
