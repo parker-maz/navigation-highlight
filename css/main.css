@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: 1em;
+  padding: 1em 0;
   width: 100%;
   margin: 0;
 }
@@ -39,10 +39,15 @@ h1 {
 }
 
 .nav a {
-  padding: .75em;
+  padding: .5em;
+  font-size: 1.125rem;
   display: inline-block;
   border-radius: 5px;
   color: #fff;
   background-color: #b2a212;
   text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #cc1465;
 }
